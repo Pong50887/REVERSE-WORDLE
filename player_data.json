@@ -1,0 +1,12 @@
+{
+    "mos": {
+        "name": "mos",
+        "password": "mos",
+        "score": 3
+    },
+    "Pong": {
+        "name": "Pong",
+        "password": "zaza",
+        "score": 3
+    }
+}
