@@ -128,6 +128,7 @@ while True:
                                     print(f'You already use character '
                                           f'{ban_list}')
                                 elif check_word(words, word_list):
+                                    # main part when the program use classes.
                                     char = [Character(words[i], i).check_if(
                                         word_list[i], game_word,
                                         yellow_and_red_word) for i in range(5)]
