@@ -14,9 +14,9 @@ To play, You need to sign up or login.
 1. Create a user or login user to play.
 2. Login user to play for each game.
 3. When the game start
-    3.1 If you guess a letter that's not in the word, it's \033[1;37m grayed \033]0m out, you can't use it again.
-    3.2 If you guess a letter that is in the word, it turns \033[1;33m yellow \033]0m, you must include it.
-    3.3 If you guess a letter in the exact position, it turns \033[1;31m red \033]0m and is locked in place.
+   * If you guess a letter that's not in the word, it's grayed out, you can't use it again.
+   * If you guess a letter that is in the word, it turns yellow you must include it. 
+   * If you guess a letter in the exact position, it turns red and is locked in place.
 4. Guesses as much as you can. The more guesser, The winner
 5. After finished, user can see scoreboard.
 
@@ -32,6 +32,8 @@ There are **4** classes in this Program.
 * **Player**: This class is used for create a json file for user to store a username, password, and score.
 * **Row**: This class is used for create Row and display it.
 * **Score**: This class is used for calculate score which user get then store it in PLayer class.
+
+![REVERSE WORDLE Console Screen](image/table.png)
 
 ### Code Structure
 * [main_prog.py](main_prog.py): Run Main Program.

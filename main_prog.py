@@ -72,7 +72,6 @@ while True:
                 yellow_and_red_word = []
                 word_list = [[], [], [], [], []]
                 game_word = Data(read_file()).open_file()
-                print(game_word)
                 all_list = []
                 character_list = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
                                   'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p',
